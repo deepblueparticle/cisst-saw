@@ -1,0 +1,242 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1390773024/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1390773024.dir/build.make CMakeFiles/cmTryCompileExec1390773024.dir/build
+make[1]: Entering directory `/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1390773024.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -fPIC -Wextra -Wall  -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1390773024.dir/CheckSymbolExists.cxx.o -c /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1390773024.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1390773024/fast] Error 2
+
+File /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3253091161/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3253091161.dir/build.make CMakeFiles/cmTryCompileExec3253091161.dir/build
+make[1]: Entering directory `/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3253091161.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -fPIC -Wextra -Wall  -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3253091161.dir/CheckSymbolExists.cxx.o -c /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: Leaving directory `/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3253091161.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec3253091161/fast] Error 2
+
+File /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2402247661/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2402247661.dir/build.make CMakeFiles/cmTryCompileExec2402247661.dir/build
+make[1]: Entering directory `/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2402247661.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -fPIC -Wextra -Wall  -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2402247661.dir/CheckSymbolExists.cxx.o -c /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: Leaving directory `/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2402247661.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec2402247661/fast] Error 2
+
+File /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if size_t is a native type passed with the following output:
+Change Dir: /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec343248103/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec343248103.dir/build.make CMakeFiles/cmTryCompileExec343248103.dir/build
+make[1]: Entering directory `/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec343248103.dir/test_size_t.cpp.o
+/usr/bin/c++    -fPIC -Wextra -Wall    -o CMakeFiles/cmTryCompileExec343248103.dir/test_size_t.cpp.o -c /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/test_size_t.cpp
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/test_size_t.cpp:2:36: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(unsigned int p) {
+                                    ^
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/test_size_t.cpp:5:46: warning: unused parameter ‘p’ [-Wunused-parameter]
+           char method(unsigned long long int p) {
+                                              ^
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/test_size_t.cpp:8:23: error: ‘char method’ redeclared as different kind of symbol
+           char method(size_t p) {
+                       ^
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/test_size_t.cpp:5:16: note: previous declaration ‘char method(long long unsigned int)’
+           char method(unsigned long long int p) {
+                ^
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/test_size_t.cpp:8:23: error: ‘size_t’ was not declared in this scope
+           char method(size_t p) {
+                       ^
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/test_size_t.cpp:8:23: note: suggested alternatives:
+In file included from /usr/include/c++/4.9/bits/stl_algobase.h:59:0,
+                 from /usr/include/c++/4.9/vector:60,
+                 from /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/test_size_t.cpp:1:
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/c++config.h:188:26: note:   ‘std::size_t’
+   typedef __SIZE_TYPE__  size_t;
+                          ^
+/usr/include/x86_64-linux-gnu/c++/4.9/bits/c++config.h:188:26: note:   ‘std::size_t’
+make[1]: *** [CMakeFiles/cmTryCompileExec343248103.dir/test_size_t.cpp.o] Error 1
+make[1]: Leaving directory `/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec343248103/fast] Error 2
+
+
+Performing C++ SOURCE FILE Test CISST_OSTREAM_CAN_CAST_TO_INT failed with the following output:
+Change Dir: /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4132254828/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4132254828.dir/build.make CMakeFiles/cmTryCompileExec4132254828.dir/build
+make[1]: Entering directory `/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4132254828.dir/src.cxx.o
+/usr/bin/c++    -fPIC -Wextra -Wall -DCISST_OSTREAM_CAN_CAST_TO_INT   -o CMakeFiles/cmTryCompileExec4132254828.dir/src.cxx.o -c /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/src.cxx
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main(int, char**)’:
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/src.cxx:3:26: error: invalid user-defined conversion from ‘std::basic_ostream<char>’ to ‘int’ [-fpermissive]
+     true ? 0 : std::cerr << "true";
+                          ^
+In file included from /usr/include/c++/4.9/ios:44:0,
+                 from /usr/include/c++/4.9/ostream:38,
+                 from /usr/include/c++/4.9/iostream:39,
+                 from /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/src.cxx:1:
+/usr/include/c++/4.9/bits/basic_ios.h:115:7: note: candidate is: std::basic_ios<_CharT, _Traits>::operator void*() const [with _CharT = char; _Traits = std::char_traits<char>] <near match>
+       operator void*() const
+       ^
+/usr/include/c++/4.9/bits/basic_ios.h:115:7: note:   no known conversion from ‘void*’ to ‘int’
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/src.cxx:3:35: warning: statement has no effect [-Wunused-value]
+     true ? 0 : std::cerr << "true";
+                                   ^
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/src.cxx:4:27: error: invalid user-defined conversion from ‘std::basic_ostream<char>’ to ‘int’ [-fpermissive]
+     false ? 0 : std::cerr << "false";
+                           ^
+In file included from /usr/include/c++/4.9/ios:44:0,
+                 from /usr/include/c++/4.9/ostream:38,
+                 from /usr/include/c++/4.9/iostream:39,
+                 from /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/src.cxx:1:
+/usr/include/c++/4.9/bits/basic_ios.h:115:7: note: candidate is: std::basic_ios<_CharT, _Traits>::operator void*() const [with _CharT = char; _Traits = std::char_traits<char>] <near match>
+       operator void*() const
+       ^
+/usr/include/c++/4.9/bits/basic_ios.h:115:7: note:   no known conversion from ‘void*’ to ‘int’
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/src.cxx:4:37: warning: value computed is not used [-Wunused-value]
+     false ? 0 : std::cerr << "false";
+                                     ^
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/src.cxx: At global scope:
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/src.cxx:2:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+ int main(int argc, char ** argv) {
+              ^
+/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/src.cxx:2:28: warning: unused parameter ‘argv’ [-Wunused-parameter]
+ int main(int argc, char ** argv) {
+                            ^
+make[1]: *** [CMakeFiles/cmTryCompileExec4132254828.dir/src.cxx.o] Error 1
+make[1]: Leaving directory `/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4132254828/fast] Error 2
+
+Source file was:
+#include <iostream>
+int main(int argc, char ** argv) {
+    true ? 0 : std::cerr << "true";
+    false ? 0 : std::cerr << "false";
+    return 0;
+}
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3297138025/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3297138025.dir/build.make CMakeFiles/cmTryCompileExec3297138025.dir/build
+make[1]: Entering directory `/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3297138025.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3297138025.dir/CheckSymbolExists.c.o   -c /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3297138025
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3297138025.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3297138025.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3297138025 -rdynamic 
+CMakeFiles/cmTryCompileExec3297138025.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3297138025] Error 1
+make: *** [cmTryCompileExec3297138025/fast] Error 2
+
+File /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3239748177/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3239748177.dir/build.make CMakeFiles/cmTryCompileExec3239748177.dir/build
+make[1]: Entering directory `/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3239748177.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3239748177.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3239748177
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3239748177.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3239748177.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3239748177 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3239748177] Error 1
+make[1]: Leaving directory `/home/arclab/catkin_ws/src/cisst-saw/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3239748177/fast] Error 2
+
+

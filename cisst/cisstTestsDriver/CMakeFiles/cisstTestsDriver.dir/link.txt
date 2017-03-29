@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../lib/libcisstTestsDriver.a  CMakeFiles/cisstTestsDriver.dir/cisstTestMain.cpp.o CMakeFiles/cisstTestsDriver.dir/cisstTestParameters.cpp.o
+/usr/bin/ranlib ../lib/libcisstTestsDriver.a

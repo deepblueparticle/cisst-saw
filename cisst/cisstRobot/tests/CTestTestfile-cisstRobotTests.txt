@@ -1,0 +1,6 @@
+ADD_TEST("C++: robDHTest::TestReadWAM7-i10-o2" ../../bin/cisstRobotTests -r -i 10 -o 2 -t robDHTest::TestReadWAM7)
+ADD_TEST("C++: robDHTest::TestForwardKinematicsWAM7-i10-o2" ../../bin/cisstRobotTests -r -i 10 -o 2 -t robDHTest::TestForwardKinematicsWAM7)
+ADD_TEST("C++: robDHTest::TestReadPUMA560-i10-o2" ../../bin/cisstRobotTests -r -i 10 -o 2 -t robDHTest::TestReadPUMA560)
+ADD_TEST("C++: robDHTest::TestForwardKinematicsPUMA560-i10-o2" ../../bin/cisstRobotTests -r -i 10 -o 2 -t robDHTest::TestForwardKinematicsPUMA560)
+ADD_TEST("C++: robManipulatorTest::TestForwardKinematics-i10-o2" ../../bin/cisstRobotTests -r -i 10 -o 2 -t robManipulatorTest::TestForwardKinematics)
+ADD_TEST("C++: robManipulatorTest::TestInverseKinematics-i10-o2" ../../bin/cisstRobotTests -r -i 10 -o 2 -t robManipulatorTest::TestInverseKinematics)

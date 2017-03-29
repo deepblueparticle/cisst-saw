@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arclab/catkin_ws/src/cisst-saw/cisst/cisstTestsDriver/cisstTestMain.cpp
+cppunit/Test.h
+-
+cppunit/TestSuite.h
+-
+cppunit/extensions/TestFactoryRegistry.h
+-
+cppunit/extensions/RepeatedTest.h
+-
+cppunit/ui/text/TestRunner.h
+-
+string
+-
+list
+-
+iostream
+-
+cisstTestParameters.h
+/home/arclab/catkin_ws/src/cisst-saw/cisst/cisstTestsDriver/cisstTestParameters.h
+
+/home/arclab/catkin_ws/src/cisst-saw/cisst/cisstTestsDriver/cisstTestParameters.cpp
+cisstTestParameters.h
+/home/arclab/catkin_ws/src/cisst-saw/cisst/cisstTestsDriver/cisstTestParameters.h
+string.h
+-
+stdlib.h
+-
+
+/home/arclab/catkin_ws/src/cisst-saw/cisst/cisstTestsDriver/cisstTestParameters.h
+string
+-
+list
+-
+iostream
+-
+

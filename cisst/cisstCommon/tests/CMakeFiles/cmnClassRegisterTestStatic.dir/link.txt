@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../lib/libcmnClassRegisterTestStatic.a  CMakeFiles/cmnClassRegisterTestStatic.dir/cmnClassRegisterTestStatic.cpp.o
+/usr/bin/ranlib ../../lib/libcmnClassRegisterTestStatic.a
